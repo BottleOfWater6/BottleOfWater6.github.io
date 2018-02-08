@@ -21,19 +21,19 @@ body {
 .webDevTable,
 .footer1-plate {
     /* Fade In Animations */
-    
+
     -webkit-animation: fadein 0.8s;
     /* Safari, Chrome and Opera > 12.1 */
-    
+
     -moz-animation: fadein 0.8s;
     /* Firefox < 13 */
-    
+
     -ms-animation: fadein 0.8s;
     /* Internet Explorer */
-    
+
     -o-animation: fadein 0.8s;
     /* Opera < 12.1 */
-    
+
     animation: fadein 0.8s;
     animation-timing-function: ease-in;
 }
@@ -49,7 +49,7 @@ body {
 }
 #container.home {
     /* Home Page BG */
-    
+
     background-image: url(images/sky-night-space-galaxy.png);
     background-size: cover;
 }
@@ -77,7 +77,7 @@ body {
     margin-top: 80px;
     background-size: 50% 155%;
 }
-/*------------------------------------Nav Bar------------------------------*/
+/*------------------------------------------------Nav Bar-------------------------------------------*/
 
 #navigationBar {
     height: 55px;
@@ -165,7 +165,7 @@ body {
 
 #navArrow img {
     /* Down Arrow in Nav */
-    
+
     width: 30px;
     height: 30px;
     margin: -44px 0 0 30px;
@@ -196,9 +196,9 @@ body {
 }
 #logo:hover {
     opacity: 0.70;
-    filter: alpha(opacity=70);	
+    filter: alpha(opacity=70);
 }
-/*----------------------Home Page-------------------*/
+/*----------------------------------------------Home Page---------------------------------*/
 
 #titleMain {
     height: 90px;
@@ -215,7 +215,7 @@ body {
     margin-left: 100px;
 }
 #arrow {
-	text-align:center;    
+	text-align:center;
     top: 880px;
     position: relative;
     animation: arrowBounce 2s ease-in-out 0s infinite alternate;
@@ -264,7 +264,7 @@ body {
 .tableSetup {
     width: 90%;
     /*Entire Table */
-    
+
     margin: auto;
 }
 .tableSetup a {
@@ -273,7 +273,7 @@ body {
 .tableSetup td {
     height: 260px;
     /* Controls Space between table and bottom elements*/
-    
+
     width: 400px;
 }
 .symbol1 {
@@ -292,10 +292,10 @@ body {
 .symbol1 p {
     width: 60%;
     /*Width of Each Box */
-    
+
     height: 150px;
     /* Controls height of each box*/
-    
+
     font-size: 15px;
     line-height: 125%;
     color: white;
@@ -316,7 +316,7 @@ body {
 #content.webDev {
     color: #2d2d2d;
     /* Font Color for entire Page */
-    
+
     margin-left: 8.5%;
     margin-top: 2%;
     width: 45%;
@@ -335,7 +335,7 @@ body {
     font-size: 18px;
     width: 80%;
     /* Width of Entire Table */
-    
+
     margin: auto;
 }
 .webDevTable h2 {
@@ -355,9 +355,9 @@ body {
 .webDevTable td {
     width: 33%;
     /* Width of Each Item */
-  
+
     padding: 20px 15px;
-   
+
     border-bottom: 1px solid transparent;
     transition: border 0.5s ease-in-out;
     -webkit-transition: border 0.5s ease-in-out;
@@ -409,26 +409,26 @@ word-spacing: -1px;
     position: absolute;
     right: 50px;
     /* Position of entire box */
-    
+
     top: 250px;
     /* Position of entire box */
-    
+
     width: 450px;
     /* dimensions of entire box*/
-    
+
     height: 350px;
     /* dimensions of entire box*/
 }
 .dots {
     width: 30px;
     /* dimensions of dots */
-    
+
     height: 30px;
     /* dimensions of dots */
-    
+
     border-radius: 50px;
     /* make it a circle */
-    
+
     position: absolute;
     animation-duration: 3s;
     animation-iteration-count: 4.5;
@@ -658,7 +658,7 @@ word-spacing: -1px;
 .boxColumn {
     color: #f5f5f5;
     /* Collor of all text */
-    
+
     text-align: center;
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     height: 650px;
@@ -780,7 +780,7 @@ word-spacing: -1px;
 }
 .portImgBox {
     /* Font Settings */
-    
+
     color: #2b2b2b;
     line-height: 200%;
     text-align: left;
@@ -842,7 +842,7 @@ word-spacing: -1px;
 }
 .portImgBox .mask {
     /* White Overlay */
-    
+
     width: 100%;
     height: 100%;
     position: absolute;
@@ -855,18 +855,18 @@ word-spacing: -1px;
 }
 .portImgBox h2 {
     /* Font Settings */
-    
+
     font-size: 25px;
     font-weight: bold;
     margin: 80px 0 0 0;
     /* So that it's not at the top */
-    
+
     padding: 15px 20px 10px 20px;
     position: relative;
 }
 .portImgBox p {
     /* Font Settings */
-    
+
     font-size: 18px;
     padding: 10px 20px 20px 20px;
     position: relative;
@@ -1006,7 +1006,7 @@ word-spacing: -1px;
     position: relative;
     font-size: 25px;
     font-weight: bold;
-    padding: 15px 20px 10px 20px;    
+    padding: 15px 20px 10px 20px;
     margin: 80px 0 0 0;
 }
 .teamBox p {
@@ -1277,7 +1277,7 @@ word-spacing: -1px;
     text-align: center;
     width: 33vw;
 	height:20vh;
-	
+
     padding: 20px 20px 70px 20px;
     opacity: 0;
     filter: alpha(opacity=0);
@@ -1381,4 +1381,3 @@ if (target.length) ( $('html,body').animate(( scrollTop: target.offset().top),
 return false;
 ))));
 ));
-
