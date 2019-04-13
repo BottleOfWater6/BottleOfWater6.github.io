@@ -1,4 +1,4 @@
-$search-bar-width: 600px;
+$search-bar-width: 500px;
 $search-bar-height: 45px;
 
 $text-base-color: #424242;
@@ -52,7 +52,8 @@ body {
 }
 
 .main-content {
-  width: $search-bar-width;
+  width: 90%;
+  max-width: $search-bar-width;
   margin: 100px auto 0 auto;
 
   .banner-text {
@@ -79,14 +80,16 @@ body {
     $search-bar-border-color: darken(#efefef, 5%);
 
     height: $search-bar-height;
-
     margin: 0 auto;
     padding: 7px 20px;
     border: 1px solid $search-bar-border-color;
     border-radius: 20px;
-    box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.75);
-
+    box-shadow: 0px 5px 10px -10px rgba(0, 0, 0, 0.75);
     display: flex;
+
+    &:hover {
+      box-shadow: 0px 5px 20px -10px rgba(0, 0, 0, 0.75);
+    }
 
     .input-wrapper {
       flex-grow: 1;
